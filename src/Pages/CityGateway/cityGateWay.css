@@ -1,0 +1,320 @@
+.deal-banner {
+    margin-top: 70px;
+    padding: 10px 0px;
+    background: #dc3545;
+    text-align: center;
+    color: #fff;
+    align-content: center;
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: 4px;
+}
+.hero-section {
+    background: url('https://s3-us-west-1.amazonaws.com/cdn.tiptopvacation.com/offers/heroimages/4-day-orlando-theme-park-adventure-6-1.png') !important;
+    margin-top: 0px;
+    min-height: 350px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.maxWidth-1200{
+    max-width: 1200px !important;
+    margin: auto;
+}
+.h-50px{
+    height: 50px;
+}
+.hero-section .hero-day-night {
+    display: inline-block;
+    /* font-family: "Arial Black", Gadget, sans-serif; */
+    font-weight: bolder;
+    background: #f4f4f4;
+    color: #900e59;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+}
+.hero-section .hero-title {
+/* font-family: "Lucida Console", Monaco, monospace; */
+    color: white;
+    font-weight: bold;
+}
+
+.hero-section .hero-subtitle {
+    /* font-family: "Lucida Console", Monaco, monospace; */
+   
+    font-size: 1.25rem;
+}
+.hero-section .hero-compare {
+    font-family: "Lucida Console", Monaco, monospace;
+    font-weight: 300;
+    font-size: 1.25rem;
+}
+.hero-section .reserveForm {
+    max-width: 375px;
+    background: rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+}
+.hero-section .hero-form-header {
+    position: relative;
+    background: #900e59;
+}
+.hero-section .hero-form-sub-header {
+    display: flex;
+    position: relative;
+    background: #f4f4f4;
+    margin-top: -8px;
+    padding-top: 15px;
+    align-items: center;
+    justify-content: center;
+}
+.hero-section .hero-form-header h2 {
+    font-family: Verdana, Geneva, sans-serif;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0px;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+.hero-section .hero-form-sub-header .span-only {
+    display: block;
+    margin-right: 10px;
+    padding: 7px 3px 5px;
+    color: #fff;
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 1;
+    text-transform: uppercase;
+    background: url(https://s3-us-west-1.amazonaws.com/cdn.tiptopvacation.com/offers/only-price-bg.png) 0 0 no-repeat;
+    width: 65px;
+    height: 27px;
+}
+.hero-section .hero-form-sub-header .span-price {
+    font-family: "Arial Black", Gadget, sans-serif;
+    color: #900e59;
+    font-size: 45px;
+}
+.hero-section .hero-form-sub-header .span-family {
+    /* font-family: "Arial Black", Gadget, sans-serif; */
+    margin-left: 5px;
+    line-height: 1;
+}
+.hero-section .form-field {
+    padding: 20px;
+    box-sizing: border-box;
+}
+.reserveForm .form-group {
+    margin-bottom: 5px !important;
+}
+.reserveForm .err-message {
+    color: #fff;
+    font-size: 12px;
+    border-radius: 5px;
+}
+.hero-section .reserveForm .booking-button {
+    background: #900e59 !important;
+}
+button.booking-button {
+    padding: 5px;
+    width: 100%;
+    font-size: 23px;
+    margin: 10px 0px;
+    background: #0665cd;
+    border: 0px;
+    color: white;
+    border-radius: 10px;
+}
+.overlay{
+    background: rgba(0, 0, 0, 0.5);
+}
+.maxWidth-332px{
+    max-width: 332px;
+}
+.font-size-24{
+    font-size: 24px !important;
+}
+.checkout-retail-price {
+    font-family: PoppinsBold, sans-serif;
+    font-size: 35px;
+    line-height: 1;
+    text-align: right;
+    letter-spacing: 3px;
+    color: rgb(144, 14, 89);
+    font-weight: 600;
+}
+.price-side-inner {
+    width: 100%;
+    text-align: left;
+}
+.retail-price {
+    font-size: 16px;
+}
+span.original-price {
+    text-decoration: line-through;
+    color: #000;
+    font-size: 20px;
+    letter-spacing: 1.5;
+    font-weight: 700;
+    line-height: 2.5;
+    font-family: Poppins, sans-serif;
+}
+.discount {
+    font-size: 16px;
+    margin-top: -10px;
+}
+div.today-only-timer {
+    /* width: 100%; */
+    /* margin: auto; */
+    /* display: block; */
+    text-align: center;
+}
+span.today-sale-timer {
+    display: flex;
+    padding: 0px;
+    font-family: Poppins, sans-serif;
+    align-items: center;
+    justify-content: center;
+}
+.smtxt {
+    font-size: 9px !important;
+}
+span.today-sale-timer .text-center.align-self-end {
+    padding: 10px;
+}
+.today-only-timer {
+    font-size: 20px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.letterSpacing{
+letter-spacing:.1em;
+}
+.one-column {
+    -webkit-column-count: 1;
+    -moz-column-count: 1;
+    column-count: 1;
+    -webkit-column-gap: 20px;
+    -moz-column-gap: 20px;
+    column-gap: 20px;
+    column-rule-color: #ccc;
+    column-rule-style: none;
+    column-rule-width: 1px;
+    text-align: justify;
+}
+button.button-reserve.button.button-reserve {
+    border: 1px;
+    width: 100%;
+    white-space: normal;
+    margin: auto;
+    min-height: 70px;
+    /* display: block; */
+    float: left;
+    /* height: 70px; */
+    margin: 20px 0px;
+}
+.vc-badge {
+    display: inline-block;
+    max-width: 98%;
+    height: auto;
+    width: 30%;
+    margin: 1%;
+}
+button:hover {
+    box-shadow: inset 0 2px 2px 0 rgba(255,255,255,0.22), 0 233px 233px 0 rgba(255,255,255,0.12) inset;
+    transform: translateY(-10px);
+}
+.button-reserve {
+    border-radius: 10px;
+    /* line-height: initial; */
+    padding: 10px 25px;
+    display: block;
+    text-align: center;
+    text-decoration: none !important;
+    color: #fff !important;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    font-size: 25px;
+    background-color: rgb(1, 149, 241);
+}
+.two-columns {
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
+    -webkit-column-gap: 20px;
+    -moz-column-gap: 20px;
+    column-gap: 20px;
+    column-rule-color: #ccc;
+    column-rule-style: none;
+    column-rule-width: 1px;
+    text-align: justify;
+
+}
+figure.snip1192 blockquote {
+    margin: 0;
+    display: block;
+    border-radius: 8px;
+    position: relative;
+    background-color: #e5349b;
+    padding: 30px 50px 65px 50px;
+    color: white;
+    font-size: 0.8em;
+    font-weight: 600;
+    margin: 0 0 -50px;
+    line-height: 1.6em;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+}
+figure.snip1192 {
+    font-family: 'Raleway', Arial, sans-serif;
+    position: relative;
+    overflow: hidden;
+    margin: 10px;
+    min-width: 220px;
+    max-width: 310px;
+    width: 100%;
+    color: #333;
+    text-align: left;
+    box-shadow: none !important;
+}
+figure.snip1192 blockquote:before {
+    top: 35px;
+    left: 20px;
+}
+figure.snip1192 blockquote:before, figure.snip1192 blockquote:after {
+    font-family: 'FontAwesome';
+    content: "\201C";
+    position: absolute;
+    font-size: 50px;
+    opacity: 0.3;
+    font-style: normal;
+}
+figure.snip1192 .author {
+    margin: 0;
+    text-transform: uppercase;
+    text-align: center;
+    color: #e5349b;
+}
+figure.snip1192 blockquote:after {
+    content: "\201D";
+    right: 20px;
+    bottom: 35px;
+}
+figure.snip1192 .author h5 {
+    opacity: 0.8;
+    margin: 0;
+    font-weight: 800;
+}
+figure.snip1192 img {
+    max-width: 100%;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    display: inline-block;
+    z-index: 1;
+    position: relative;
+}

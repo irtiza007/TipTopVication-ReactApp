@@ -1,0 +1,101 @@
+.wrapper {
+  display: table;
+  height: 100%;
+  width: 100%;
+}
+.container-offers {
+  display: table-cell;
+  padding: 1em;
+  text-align: center;
+  vertical-align: middle;
+}
+
+/* .containerr {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+} */
+/* 
+.align-items-stretch {
+  -ms-flex-align: stretch !important;
+  align-items: stretch !important;
+} */
+
+.img-card img {
+  width: 100%;
+  height: 240px;
+  object-fit: cover;
+  transition: all 0.25s ease;
+}
+
+.pack_price p {
+  color: rgba(47, 47, 47, 0.5);
+  font-size: 18px;
+}
+
+.pack_terms {
+  /* padding: 15px 0; */
+}
+
+.card-read-more {
+  border-top: 1px solid #d4d4d4;
+  background: #007bff;
+}
+
+.card-read-more a {
+  text-decoration: none !important;
+  padding: 10px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 20px;
+  letter-spacing: 0.08em;
+}
+
+.btn-block {
+  display: block;
+  width: 100%;
+}
+
+.percent-off-card {
+  position: absolute;
+  top: 0px;
+  left: 0;
+  background: #007bff;
+  padding: 10px 15px;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.location-card {
+  position: absolute;
+  top: 215px;
+  right: 0;
+  background: #e5349b;
+  padding: 5px 15px;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 1200px) {
+  /* .containerr {
+    max-width: 100% !important;
+  } */
+}
+
+@media screen and (min-width: 576px) {
+  /* .containerrr {
+    max-width: 540px;
+  } */
+  /* .col-sm-12 {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+  } */
+}

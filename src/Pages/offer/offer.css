@@ -1,0 +1,95 @@
+.logo-image {
+  width: 250px;
+  height: 40px;
+  margin-top: 10px;
+  margin-bottom: 6px;
+}
+.phone-icon {
+  width: 24px;
+  height: 24px;
+}
+.tel-num {
+  font-size: 16px;
+  border-radius: 10px;
+  font-weight: 600;
+  color: #1d2020;
+  transition: all 0.3s;
+}
+.tel-num:hover {
+  box-shadow: 0px 0px 14px 3px #08517e;
+  text-decoration: none;
+  border-radius: 5px;
+}
+.vcmax {
+  max-width: 1200px !important;
+}
+.window-height {
+  min-width: 100vh;
+  position: relative;
+}
+.width-200px {
+  width: 200px;
+}
+.f-black {
+  color: black;
+}
+#reamaze-widget {
+  position: fixed;
+  height: 58px;
+  cursor: pointer;
+  opacity: 0.95;
+  z-index: 2147483647;
+  background: linear-gradient(
+    135deg,
+    rgb(144, 14, 89) 0%,
+    rgb(177, 86, 139) 100%
+  );
+  border-radius: 58px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 3px 3px;
+  perspective: 1000px;
+  backface-visibility: hidden;
+  transition: all 0.2s ease-in-out 0s;
+  bottom: 22px;
+  right: 22px;
+}
+.holiday-box {
+  background-image: url("../../Images/vc-hero.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-bottom: 100px;
+  height: 600px;
+  align-items: center;
+  position: relative;
+  width: 100%;
+  display: flex;
+  text-align: center;
+  color: #fff;
+  margin-top: 5.3%;
+}
+.holiday-box-overlay {
+  background-color: rgba(34, 34, 34, 0.3);
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  z-index: 0;
+}
+.holiday-box h2 {
+  font-size: 64px;
+  line-height: 70px;
+  font-weight: 600;
+  padding: 0 70px;
+  color: white;
+}
+.s-head {
+  font-size: 28px;
+}
+#reamaze-widget #reamaze-widget-icon {
+  display: block;
+  overflow: hidden;
+  width: 58px;
+  height: 58px;
+  border-radius: 58px;
+}

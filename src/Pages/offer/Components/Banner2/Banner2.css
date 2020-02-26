@@ -1,0 +1,107 @@
+.hero-box {
+  background-image: url("../../../../Images/book-now.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-bottom: 100px;
+  height: 600px;
+  align-items: center;
+  position: relative;
+  width: 100%;
+  display: flex;
+  text-align: center;
+  color: #fff;
+  margin-top: 5.3%;
+}
+.hero-box-overlay {
+  background-color: rgba(34, 34, 34, 0.3);
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  z-index: 0;
+}
+.hero-box h2 {
+  font-size: 64px;
+  line-height: 70px;
+  font-weight: 600;
+  padding: 0 70px;
+  color: white;
+}
+
+.section-gateway {
+  outline: none;
+  background-color: rgb(90, 175, 214);
+  /* background: url(../img/book-now.png) 85% 50% / cover no-repeat; */
+  padding: 20px 0 20px;
+  color: #fff;
+}
+
+.gateway-detail-box {
+  padding-bottom: 15px;
+}
+
+.detail-box {
+  font-size: 26px;
+}
+
+.steps-title-div {
+  padding-bottom: 15px;
+}
+
+.steps-title {
+  font-size: 30px;
+  font-weight: 700;
+  text-shadow: 2px 2px #004076;
+}
+
+.steps-title-div {
+  padding-bottom: 15px;
+}
+.steps-text {
+  text-shadow: 2px 2px #004076;
+  font-size: 20px;
+}
+
+section.section-gateway .fa {
+  margin-right: 10px;
+}
+
+.show-all-deals {
+  margin: auto;
+  width: 80%;
+  padding-top: 20px;
+}
+
+.link-sub {
+  font-size: 12px;
+  display: block;
+}
+
+.gateway-detail-link {
+  padding: 10px 25px;
+  display: block;
+  text-align: center;
+  text-decoration: none !important;
+  color: #fff !important;
+  color: rgb(255, 255, 255);
+  font-weight: 600;
+  background-color: rgb(144, 14, 89);
+  font-size: 28px;
+  margin-top: 28px !important;
+  margin-bottom: 20px;
+}
+
+.btton-primary {
+  border-radius: 10px;
+  /* line-height: initial; */
+  padding: 10px 25px;
+  display: block;
+  text-align: center;
+  text-decoration: none !important;
+  color: #fff !important;
+  color: rgb(255, 255, 255);
+  font-weight: 600;
+  background-color: rgb(144, 14, 89);
+}
